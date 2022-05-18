@@ -2,27 +2,27 @@
 
 * Haz una inserccion de un solo personaje
 
-	db.personajes.insertOne(
-	{"personaje" : "Oscar Lucas",
-	"apodo" : "Lucas",
-	"estudianteDeHogwarts" : true,
-	"casaDeHogwarts" : "Ravenclaw",
-	"interpretado_por" : "Leonardo DiCaprio",
-	"hijos" : [ ],
-	"metadata" : {
-			"sourceName" : "Wikipedia",
-			"sourceUrl" : "https://en.wikipedia.org/wiki/"
-		     },
-	"imagen" : "",
-	"escobas": {
-        "tipos": [
+		db.personajes.insertOne(
+		{"personaje" : "Oscar Lucas",
+		"apodo" : "Lucas",
+		"estudianteDeHogwarts" : true,
+		"casaDeHogwarts" : "Ravenclaw",
+		"interpretado_por" : "Leonardo DiCaprio",
+		"hijos" : [ ],
+		"metadata" : {
+				"sourceName" : "Wikipedia",
+				"sourceUrl" : "https://en.wikipedia.org/wiki/"
+		     	},
+		"imagen" : "",
+		"escobas": {
+       		"tipos": [
             
-        ]
-    	},
-    	"hechizos": [
+        	]
+    		},
+    		"hechizos": [
         
-    	]
-    	})
+    		]
+    		})
 * Haz una inserccion de varios(dos) personajes
 
 		db.personajes.insertMany([
