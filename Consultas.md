@@ -4,7 +4,7 @@
 
 * Haz una consulta que te muestre los que si son estudiantes de Hogwarts
 
-		db.personajes.find({"estudianteDeHowarts":true}).pretty()
+		db.personajes.find({"estudianteDeHogwarts":true}).pretty()
 
 * Haz una consulta que te muestre los estudiantes de Hogwarts de la casa Gryffindor
 
