@@ -16,15 +16,21 @@
 
     db
     
+## Eliminar base de datos
+
+Hacerlo dentro de la base de datos
+
+        db.dropDatabase()
+    
 ## Importar json en MongoDB
 
 Hacerlo fuera de mongo
 
         mongoimport --db NAME_BD --collection NAME_YOUR_COLLECTION --file 'ruta del json'
-    
-## Eliminar base de datos
+        
+## Eliminar json de la base de datos
 
-    db.NAME_COLLECTION.drop()
+        db.NAME_COLLECTION.drop()
     
 ## Mostrar la coleccion
 
