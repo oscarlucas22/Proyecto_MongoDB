@@ -30,6 +30,8 @@ Hacerlo fuera de mongo
         
 ## Eliminar json de la base de datos
 
+Hacerlo dentro de la base de datos donde este el json
+
         db.NAME_COLLECTION.drop()
     
 ## Mostrar la coleccion
