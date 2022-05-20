@@ -16,6 +16,11 @@
 
     db
     
+## Importar json en MongoDB
+
+Hacerlo fuera de mongo
+        mongoimport --db NAME_BD --collection NAME_YOUR_COLLECTION --file 'ruta del json'
+    
 ## Eliminar base de datos
 
     db.NAME_COLLECTION.drop()
